@@ -37,6 +37,10 @@ function Seo({ description, lang, meta, title }) {
       titleTemplate={defaultTitle ? `%s / ${defaultTitle}` : null}
       meta={[
         {
+          name: `facebook-domain-verification`,
+          content: `c19sltbopzg8jc39ksm17z27x714c8`,
+        },
+        {
           name: `description`,
           content: metaDescription,
         },

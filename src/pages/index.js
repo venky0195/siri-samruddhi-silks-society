@@ -1,121 +1,207 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
-
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
-]
-
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
-
-const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-]
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
+    <Seo title="Siri samruddhi silks society" />
+    <h1 class="hero__title hY9UDb ">
+      <span
+        class="hero__title-content CoIOBe nbOMh"
+        itemprop="name"
+        data-field="headline"
+      >
+        Siri samruddhi silks society
+      </span>
+    </h1>
+    <div class="notification ">
+      <span
+        class="notification-content"
+        itemprop="description"
+        data-field="announcement"
+      >
+        Saree Store in Chickpet
+      </span>
     </div>
-    <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
+    <div class="hero__strapline teQaN " data-field="hours-header">
+      <div
+        id="hours_content"
+        class="current-hours-content TEPfHc-R86cEd-bN97Pc temporal PTUDTb"
+      >
+        Open today until 21:30
+      </div>
+    </div>
+    <div class="BiTRX">
+      <picture>
+        <source
+          media="(max-width: 480px)"
+          srcset="https://www.gstatic.com/bfe/apps/website/img/h/92142673-hangers-1440.jpg"
+        />
+        <source
+          media="(min-width: 481px) and (max-width: 768px)"
+          srcset="https://www.gstatic.com/bfe/apps/website/img/h/92142673-hangers-1440.jpg"
+        />
+        <img
+          class="n9wygc"
+          alt="Header image for the site"
+          src="https://www.gstatic.com/bfe/apps/website/img/h/92142673-hangers-1440.jpg"
+          data-iml="667.3000000715256"
+          data-atf="true"
+        />
+      </picture>
+    </div>
+    <div
+      class="b0t70b"
+      id="gallery"
+      jslog="64602; track:impression"
+      data-panel="gallery-panel"
+    >
+      <div class="y72IR">
+        <hr class="WUdCTb" />
+        <h2 class="Igsabe">Gallery</h2>
+      </div>
+      <div class="goIW2">
+        <div class="UCecQ">
+          <div class="PWqJSb ZdKHsd">
+            <a
+              href="//www.google.com/maps/uv?pb=!1s0x3bae1608fd1beab3:0x558539e36be76cd!3m1!7e131!4s!5sSiri+samruddhi+silks+society&amp;hl=en-GB&amp;imagekey=!1e10!2sAF1QipOxZgbJ1g1ADhl1q0RzRdRJPf-b5fDuaAUQMaUm"
+              class="oYxtQd"
+              target="_blank"
+            >
+              <StaticImage
+                src="../images/2018-04-08-new.jpeg"
+                width={300}
+                quality={95}
+                alt="A Gatsby astronaut"
+                style={{ marginBottom: `1.45rem` }}
+              />
+            </a>
+          </div>
+          <div class="PWqJSb ZdKHsd">
+            <a
+              href="//www.google.com/maps/uv?pb=!1s0x3bae1608fd1beab3:0x558539e36be76cd!3m1!7e131!4s!5sSiri+samruddhi+silks+society&amp;hl=en-GB&amp;imagekey=!1e10!2sAF1QipO5KBxsfx86kdVgxbOM7eAEqBS3sA2tyi02PCQ2"
+              class="oYxtQd"
+              target="_blank"
+            >
+              <StaticImage
+                src="../images/2018-04-08.jpeg"
+                width={300}
+                quality={95}
+                alt="A Gatsby astronaut"
+                style={{ marginBottom: `1.45rem` }}
+              />
+            </a>
+          </div>
+          <div class="PWqJSb kErOtf ZdKHsd"></div>
+        </div>
+      </div>
+    </div>
+    <hr class="WUdCTb"></hr>
+    <h2 class="Igsabe">Contact Us</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.16466295489!2d77.5767015!3d12.9692177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x558539e36be76cd!2sSAMRUDDHI%20SILKS!5e0!3m2!1sen!2sin!4v1656949205207!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style={{ border: "0" }}
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <div class="fGZQDc">
+      <div class="kCmrbf">
+        <h3 class="Gou21b">Contact</h3>
+        <div data-field="phone">
           <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
+            class="PDvGL q8cvFf"
+            href="tel:+91-89718-09518"
+            data-tracking-element-type="3"
+            jslog="56037; track:impression,click"
+            itemprop="telephone"
+            dir="ltr"
           >
-            {link.text} ↗
+            Call now
           </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
+          <ul class="R7Di0e">
+            <li dir="ltr">089718 09518</li>
+          </ul>
+        </div>
+      </div>
+      <div class="kCmrbf">
+        <h3 class="Gou21b">Address</h3>
+        <div data-field="address">
+          <a
+            class="PDvGL q8cvFf"
+            href="https://www.google.com/maps/dir//Siri+samruddhi+silks+society/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae1608fd1beab3:0x558539e36be76cd!2m2!1d77.5766556!2d12.9692299"
+            target="_blank"
+            data-tracking-element-type="6"
+            jslog="56039; track:impression,click"
+          >
+            Get directions
+          </a>
+          <address class="qhkvMe " itemprop="address">
+            <div>695, 1st floor, Hanuman building</div>
+            <div>Chickpet Road</div>
+            <div>opp. to kuberan silks</div>
+            <div>Chickpet</div>
+            <div>Karnataka 560053</div>
+            <div>India</div>
+          </address>
+        </div>
+      </div>
+      <div class="kCmrbf">
+        <h3 class="Gou21b">Opening Hours</h3>
+        <div>
+          <table itemprop="openingHours">
+            <tbody>
+              <tr>
+                <th class="x2TOCf">Mon:</th>
+                <td class="o0m3Qb">
+                  <span class="WF8WNe">10:00 am – 9:30 pm</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="x2TOCf">Tue:</th>
+                <td class="o0m3Qb">
+                  <span class="WF8WNe">10:00 am – 9:30 pm</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="x2TOCf">Wed:</th>
+                <td class="o0m3Qb">
+                  <span class="WF8WNe">10:00 am – 9:30 pm</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="x2TOCf">Thu:</th>
+                <td class="o0m3Qb">
+                  <span class="WF8WNe">10:00 am – 9:30 pm</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="x2TOCf">Fri:</th>
+                <td class="o0m3Qb">
+                  <span class="WF8WNe">10:00 am – 9:30 pm</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="x2TOCf">Sat:</th>
+                <td class="o0m3Qb">
+                  <span class="WF8WNe">10:00 am – 9:30 pm</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="x2TOCf">Sun:</th>
+                <td class="o0m3Qb">
+                  <span class="WF8WNe">10:00 am – 9:30 pm</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 
