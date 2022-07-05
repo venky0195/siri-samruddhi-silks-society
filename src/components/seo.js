@@ -38,7 +38,7 @@ function Seo({ description, lang, meta, title }) {
       meta={[
         {
           name: `facebook-domain-verification`,
-          content: `c19sltbopzg8jc39ksm17z27x714c8`,
+          content: `ndu1633tegsnjzxnk1o6yrbgjl8axc`,
         },
         {
           name: `description`,
